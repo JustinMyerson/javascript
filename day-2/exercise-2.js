@@ -45,7 +45,11 @@ const people = [
   },
 ];
 
-const result = 0; // Write your answer here
+const result = people.filter(function(element) {
+  return element.age >= 40 && element.isAdmin
+}); // Write your answer here
+
+console.log(result)
 
 // Do not remove this and do not change the
 //    variable 'result' name above. It's
