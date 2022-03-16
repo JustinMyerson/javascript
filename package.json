@@ -4,7 +4,8 @@
   "main": "index.js",
   "repository": "https://github.com/yoco-grad-programme/javascript.git",
   "dependencies": {
-    "jest": "^27.5.1"
+    "jest": "^27.5.1",
+    "yarn": "^1.22.17"
   },
   "scripts": {
     "test": "jest",
