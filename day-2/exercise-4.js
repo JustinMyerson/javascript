@@ -17,3 +17,16 @@ const person = {
     branchName: "Scranton",
   },
 };
+
+let {
+  firstName, 
+  isAdmin,
+  location: {
+    coordinates,
+    branchName
+  }
+} = person
+
+console.log(firstName)
+console.log(isAdmin)
+console.log(branchName)
